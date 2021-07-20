@@ -6,4 +6,8 @@
 }
 .button{
     background-color: #FF428D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
 }
