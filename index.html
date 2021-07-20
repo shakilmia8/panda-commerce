@@ -16,7 +16,7 @@
     <!-- header started -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
+            <div class="container fixed-top bg-light">
                 <img src="images/logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,13 +33,13 @@
                             <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-secondary" aria-current="page" href="#">Product</a>
+                            <a class="nav-link active text-secondary" aria-current="page" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-secondary" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link active text-secondary" aria-current="page" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-secondary" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link active text-secondary" aria-current="page" href="#contact">Contact Us</a>
                         </li>
                     </ul>
 
@@ -65,7 +65,7 @@
                                     front of funky world.
                                 </p>
                                 <h1>$420</h1>
-                                <button class="btn btn-danger">BUY NOW </button>
+                                <button class="btn button text-white">BUY NOW </button>
                             </div>
                             <div class="col-md-5 col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -145,8 +145,8 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid bg-secondary py-3">
-            <div class="container mb-5">
+        <section class="container-fluid panda-main-bg py-3">
+            <div id="shoes" class="container mb-5">
                 <h1 class="my-5"><b>Shoes</b></h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -159,7 +159,7 @@
                                 <h1>$1289</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                                 <h1>$799</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -187,14 +187,14 @@
                                 <h1>$699</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="container mb-5">
+            <div id="backpack" class="container mb-5">
                 <h1 class="my-5"><b>Backpack</b></h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -207,7 +207,7 @@
                                 <h1>$1289</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                 <h1>$799</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                                 <h1>$699</h1>
                             </div>
                             <div class="ps-3">
-                                <button class="btn btn-danger">BUY NOW</button>
+                                <button class="btn button text-white">BUY NOW</button>
                             </div>
                         </div>
                     </div>
@@ -243,18 +243,23 @@
                 </div>
             </div>
         </section>
-        <section class="container bg-primary" style="height: 300px;">
-            <div class="d-flex  justify-content-center align-items-center">
-                <div class="">
-                    <h1>LET'S STAY IN TOUCH</h1>
-                    <P>Get updates on sales and more</P>
-                    <input type="text" placeholder="Enter your E-mail">
-                    <button class="btn btn-danger">Send</button>
-                </div>
+        <section id="contact" class="container panda-login-bg my-5 d-flex justify-content-center align-items-center"
+            style="height: 300px;">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <P>Get updates on sales and more</P>
+                <input type="text" placeholder="Enter your E-mail">
+                <br>
+                <button class="btn button text-white">Send</button>
             </div>
         </section>
     </main>
     <!-- main ended -->
+    <!-- footer started -->
+    <footer class="text-center">
+        <p><small>©2022. Panda Commerce. All rights reserved. MD Tariqul Islam. Chandina. Cumilla.</small></p>
+    </footer>
+    <!-- footer ended -->
     <!-- Bootstrap Script -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

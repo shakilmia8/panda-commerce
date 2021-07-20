@@ -1,3 +1,9 @@
-.panda-bg{
+.panda-bg, .panda-login-bg{
     background-color: #FEEAE9;
+}
+.panda-main-bg{
+    background-color: #F4F4F4;
+}
+.button{
+    background-color: #FF428D;
 }
