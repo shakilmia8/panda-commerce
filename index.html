@@ -15,8 +15,8 @@
 <body>
     <!-- header started -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container fixed-top bg-light">
+        <nav class="bg-light navbar navbar-expand-lg navbar-light py-2 fixed-top">
+            <div class="container">
                 <img src="images/logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -46,7 +46,10 @@
                 </div>
             </div>
         </nav>
-        <div class="my-5 container">
+
+        <div class="container shakil">
+            <button id="dark-mode" class="button">Dark Mode</button>
+            <button id="normal-mode" class="button">Normal Mode</button>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -120,9 +123,9 @@
     <!-- header ended -->
     <!-- main started -->
     <main>
-        <section class="container mb-5">
+        <section class="container my-5">
             <div class="container">
-                <h1 class="mb-3">Categories</h1>
+                <h1 class="mb-3 fw-bold name">Categories</h1>
                 <div class="row gy-4 gx-4">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="p-3 bg-warning d-flex justify-content-between align-items-center  rounded-3">
@@ -145,13 +148,13 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid panda-main-bg py-3">
+        <section class="container-fluid py-3">
             <div id="shoes" class="container mb-5">
-                <h1 class="my-5"><b>Shoes</b></h1>
+                <h1 class="my-5 name"><b>Shoes</b></h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 border-0 rounded-3 p-3">
-                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <img id="enter" src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h1 class="card-title">Reebok Dart Men's Shoes</h1>
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -195,7 +198,7 @@
                 </div>
             </div>
             <div id="backpack" class="container mb-5">
-                <h1 class="my-5"><b>Backpack</b></h1>
+                <h1 class="my-5 name"><b>Backpack</b></h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 border-0 rounded-3 p-3">
@@ -247,21 +250,22 @@
             style="height: 300px;">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
-                <P>Get updates on sales and more</P>
-                <input class="form-control" type="text" placeholder="Enter your E-mail">
+                <P id='delete-text'>Get updates on sales and more</P>
+                <input id="delete-button" class="form-control" type="text" placeholder="Enter your E-mail">
                 <br>
-                <button class="button">Submit</button>
+                <button id='submit' class='button' disabled>Submit</button>
             </div>
         </section>
     </main>
     <!-- main ended -->
     <!-- footer started -->
-    <footer class="text-center">
+    <footer class="text-center text-primary">
         <p><small>©2022. Panda Commerce. All rights reserved. MD Tariqul Islam. Chandina. Cumilla.</small></p>
     </footer>
     <!-- footer ended -->
     <!-- Bootstrap Script -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/panda.js"></script>
 </body>
 
 </html>
